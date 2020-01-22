@@ -63,11 +63,7 @@ for pkg in ${BREW_PKGS[@]};do brew_pkg $pkg;done
 
 # Install casks
 BREW_CASKS=(
-  clamxav
-  transmit
-  google-chrome
   visual-studio-code
-  slack
   virtualbox
   virtualbox-extension-pack
   vagrant
