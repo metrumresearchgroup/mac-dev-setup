@@ -24,7 +24,7 @@ brew_tap(){
 sudo spctl --master-disable
 
 # Install homebrew if it's not already installed
-type brew &> /dev/null || /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+type brew &> /dev/null || /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
 # Install packages
 BREW_PKGS=(
