@@ -9,7 +9,7 @@ brew_pkg(){
 
 # helper function for installing a package via brew cask
 brew_cask(){
-    brew cask install $1
+    brew install --cask $1
 }
 
 # helper function for installing a package via brew tap
